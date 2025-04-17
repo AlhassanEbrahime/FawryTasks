@@ -1,6 +1,6 @@
 # Image management System POC
 
-`Mian`
+### `Main`
 ``` java 
 
 public class Main {
@@ -33,7 +33,7 @@ public class Main {
 
 ```
 
-`Image class`
+### `Image class`
 
 ``` java
 import java.util.ArrayList;
