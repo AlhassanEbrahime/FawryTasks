@@ -18,7 +18,7 @@ public class Main {
             tags.add(tag);
         }
         userImage.put(tags, photo);
-        Image image = new Image("profile image ", tags, userImage);
+        Image image = new Image (tags, userImage);
 
 
         System.out.println("Enter tag");
