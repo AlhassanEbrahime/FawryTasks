@@ -71,7 +71,7 @@ public class Image {
 ## enhancements 
 
 - Using Inverted index
-- Implement other features ( search by location , date, 
+- Implement other features ( search by location and date) 
 
 
 
