@@ -9,4 +9,4 @@
 
 ### Java8
 
-- [Solution]()
+- [Solution](https://github.com/AlhassanEbrahime/FawryTasks/tree/main/02-Week/java8_assignment)
