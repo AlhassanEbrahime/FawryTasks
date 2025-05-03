@@ -61,7 +61,7 @@ public class LambdaExample {
 
         banner("Listing users with age > 5 sorted by name - lambda");
 
-        repository.select(user -> user.age>5, Comparator.comparing(user -> user.name));
+        repository.select(user -> user.age > 5, Comparator.comparing(user -> user.name));
 
         banner("Listing users with age < 10 sorted by age");
 
