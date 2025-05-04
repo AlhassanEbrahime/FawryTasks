@@ -44,8 +44,8 @@ public class ProductService {
 	
 	
 	public Product addProduct(Product product) {
-		product.setId(products.size()+1);
-		products.put(product.getId(), product);
+		product.setId((long)products.size()+1);
+		return products.put(product.getId(), product);
 	}
 	
 	
