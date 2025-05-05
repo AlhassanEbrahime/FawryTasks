@@ -12,7 +12,4 @@
         <url-pattern>/products</url-pattern>
     </servlet-mapping>
 
-    <listener>
-        <listener-class>org.project.Main</listener-class>
-    </listener>
 </web-app>

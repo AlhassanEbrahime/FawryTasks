@@ -1,9 +1,9 @@
 package org.project;
 import java.io.*;
 
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import org.json.*;
 import java.util.*;
 
@@ -51,7 +51,6 @@ public class ProductServlet extends HttpServlet {
 
         String name = body.getString("name");
         int quantity = body.getInt("quantity");
-
 
         Product updatedProduct = new Product(id, name, quantity);
         boolean success = ProductRepository.update(id, updatedProduct);
